@@ -8,7 +8,7 @@ body{
     margin: 0px auto;
     padding: 20px;
     justify-content: center;
-    /*this will align the links to the right */
+    /*this will align the links to the center */
     background: rgb(73, 154, 137);
     background: linear-gradient(90deg, rgba(73, 154, 137, 1) 0%, rgba(151, 223, 201, 1) 50%, rgba(73, 154, 137, 1) 100%);
 }
@@ -92,4 +92,18 @@ footer {
     margin-top: 30%;
     padding: 50px;
     background-color: #FFE0B7;
+}
+
+i {
+    margin: 0 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.disclaimer {
+    display: flex;
+    justify-content: center;
 }
