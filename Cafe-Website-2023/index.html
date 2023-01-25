@@ -4,41 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/255e2bd9c2.css" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
-        <title>The Corner Cafe</title>
+        <title>The Caffeine Fix</title>
 </head>
 <body>
-    <nav class="navbar expand-lg bg-dark">
-        <div class="container-fluid">
-            <span class="navbar-text text-light">
-                The Corner Cafe
-            </span>
-            <span class="homepage-links">
-            <a class="linkOne text-decoration-none text-light" href="#">About Us</a>
-            <a class="linkTwo text-decoration-none text-light" href="#">Products</a>
-            <a class="linkThree text-decoration-none text-light" href="#">Contact</a>
-            </span>
-        </div>
+    <!-- navigation bar -->
+    <nav>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#section-1">Home</a></li>
+            <li><a href="#section-2">Products</a></li>
+            <li><a href="#section-3">About</a></li>
+            <li><a href="#section-4">Contact</a></li>
+        </ul>
     </nav>
-    <div class="homepageSectionOne position-relative">
-    <img src="/Cafe-Website-2023/pictures/homepage-banner-1.jpg" class="img-fluid" alt="picture unavailable">
-    <h1 class="homepageBannerFirst position-absolute top-50 start-50 translate-middle">Your coffee experts</h1>
-    <h2 class="homepageBannerSecond position-absolute top-50 start-50 translate-middle">Check out our new arrivals </h2>
-    <button class="homepageBannerButton position-absolute top-50 start-50 translate-middle">Click Here</button>
+<!-- main section one -->
+<div class="container" style="display: flex; height: 300px;">
+    <div class="left-column" style="width: 50%;">
+        <div class="center-item-top-one" style="justify-content: center;">
+            <h1>The Caffeine Fix</h1>
+        </div>
+        <div class="center-item-top-two" style="justify-content: center;">
+            <h3>In Caffeine we trust | New Products Available Now</h3>
+        </div>
     </div>
-    <div class="homepageSectionTwo">
-       <h1>In Coffee We Trust</h1>
-       <p>Our priority is to produce quality coffee, sustainably. From bean to cup, we ensure quality through sourcing and sorting with some of the best in the business. </p> 
+    <div class="right-column" style="width: 50%;">
+        <img src="pictures/Product-Bottle-1.png" alt="A photo of our cafe" class="responsive-img-one">
     </div>
-    <div class="homepageSectionOne position-relative">
-        <img src="/Cafe-Website-2023/pictures/homepage-banner-2.jpg" class="bannerImage img-fixed" alt="picture unavailable">
-        <h1 class="homepageBannerFirst position-absolute top-50 start-50 translate-middle">Find Us Here</h1>
-        <button class="homepageBannerButton position-absolute top-50 start-50 translate-middle">Click Here</button>
+</div>
+<!-- main section two -->
+<div class="container" style="display: flex; height: 300px;">
+    <div class="left-column" style="width: 50%;">
+        <img src="pictures/Product-Bottle-2.png" alt="A photo of our cafe" class="responsive-img-two">
     </div>
+    <div class="right-column" style="width: 50%;">
+        <div class="center-item-bottom-one" style="justify-content: center;">
+            <h1>Check out our e-shop</h1>
+        </div>
+        <div class="center-item-bottom-two" style="justify-content: center;">
+            <button>Click Here</button>
+        </div>
+    </div>
+</div>
+<!-- footer section -->
+<footer>
+    <div>
+        <h5>this is a mock landing page created for portfolio purposes only</h5>
+    </div>
+    <div class="social-icons">
+        <h5>this is a mock landing page created for portfolio purposes only</h5>
+    </div>
+    <div>
+
+    </div>
+</footer>
+
 </body>
 </html>

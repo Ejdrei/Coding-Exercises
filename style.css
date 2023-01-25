@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+}
+/* navigation bar */
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 20px;
+    justify-content: center;
+    /*this will align the links to the right */
+    background: rgb(73, 154, 137);
+    background: linear-gradient(90deg, rgba(73, 154, 137, 1) 0%, rgba(151, 223, 201, 1) 50%, rgba(73, 154, 137, 1) 100%);
+}
+
+.nav-menu li {
+    margin-right: 20px;
+    /* this is to add space between links */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    color: #ffffff;
+}
+/* main section one */
+
+.center-item-top-one {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: #7BCFBA;
+    text-decoration: underline;
+    font-size: 24px;
+    width: 80%;  
+
+}
+
+.center-item-top-two {
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: #7BCFBA;
+    font-size: 24px;
+    width: 80%;
+
+}
+
+.responsive-img-one {
+    max-width: 80%;
+    border-radius: 25px;
+    margin: 5%;
+    /* this will make the image to scale up and down depending on the screen size */
+    height: auto;
+    /* this will keep the aspect ratio of the image */
+}
+/* main section two */
+.center-item-bottom-one {
+    display: flex;
+    margin-top: 60%;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(73, 154, 137);
+}
+
+button {
+    display: flex;
+    padding: 0 30px;
+    justify-content: center;
+    margin-left: 40%;
+    color: #7BCFBA;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #ffffff;
+    border-color: #7BCFBA;
+    border-radius: 10px;
+    
+}
+
+.responsive-img-two {
+    max-width: 80%;
+    border-radius: 25px;
+    margin: 10%;
+    /* this will make the image to scale up and down depending on the screen size */
+    height: auto;
+    /* this will keep the aspect ratio of the image */
+}
+
+footer {
+    margin-top: 30%;
+    padding: 50px;
+    background-color: #FFE0B7;
+}
