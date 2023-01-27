@@ -89,9 +89,12 @@ button {
 }
 
 footer {
+    width: 100%;
     margin-top: 30%;
     padding: 30px;
     background-color: #FFE0B7;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 i {
@@ -106,5 +109,64 @@ i {
 .disclaimer {
     display: flex;
     justify-content: center;
+    font-size: 12px;
+    margin-top: 5px;
 }
-            
+
+/* Products page */
+
+  .coldBrew{
+    color: pink;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #7BCFBA;
+    margin: 50px;
+    font-size: 48px;
+  }
+  .productsLineOne {
+    margin-top: 30px;
+    display: flexbox;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: grey;
+  }
+
+  .productsLineTwo {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: grey;
+    
+  }
+  .productsLineThree{
+    padding: 0;
+    margin-left: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: grey;
+  }
+
+  .productsLineFour {
+    color: grey;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+  }
+
+  .img-thumbnail {
+    max-width: 70%;
+    border-radius: 25px;
+    border-style: none;
+  }
+
+  .coffeeBeans {
+    color: pink;
+    text-align: center;
+    margin: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: #7BCFBA;
+    font-size: 48px;
+  }
